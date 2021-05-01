@@ -43,17 +43,18 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(57, 148);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(1168, 540);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // btnHome
             // 
             this.btnHome.Location = new System.Drawing.Point(1275, 148);
-            this.btnHome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHome.Margin = new System.Windows.Forms.Padding(4);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(183, 60);
             this.btnHome.TabIndex = 20;
@@ -64,7 +65,7 @@
             // btnAddEmp
             // 
             this.btnAddEmp.Location = new System.Drawing.Point(1275, 252);
-            this.btnAddEmp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddEmp.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddEmp.Name = "btnAddEmp";
             this.btnAddEmp.Size = new System.Drawing.Size(203, 60);
             this.btnAddEmp.TabIndex = 21;
@@ -75,7 +76,7 @@
             // searchbtn
             // 
             this.searchbtn.Location = new System.Drawing.Point(357, 52);
-            this.searchbtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.searchbtn.Margin = new System.Windows.Forms.Padding(4);
             this.searchbtn.Name = "searchbtn";
             this.searchbtn.Size = new System.Drawing.Size(141, 42);
             this.searchbtn.TabIndex = 84;
@@ -86,7 +87,7 @@
             // searchtxt
             // 
             this.searchtxt.Location = new System.Drawing.Point(55, 62);
-            this.searchtxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.searchtxt.Margin = new System.Windows.Forms.Padding(4);
             this.searchtxt.Name = "searchtxt";
             this.searchtxt.Size = new System.Drawing.Size(293, 22);
             this.searchtxt.TabIndex = 83;
@@ -94,7 +95,7 @@
             // dlbtn
             // 
             this.dlbtn.Location = new System.Drawing.Point(1275, 354);
-            this.dlbtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dlbtn.Margin = new System.Windows.Forms.Padding(4);
             this.dlbtn.Name = "dlbtn";
             this.dlbtn.Size = new System.Drawing.Size(203, 74);
             this.dlbtn.TabIndex = 85;
@@ -115,7 +116,7 @@
             // txtUid
             // 
             this.txtUid.Location = new System.Drawing.Point(675, 65);
-            this.txtUid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUid.Margin = new System.Windows.Forms.Padding(4);
             this.txtUid.Name = "txtUid";
             this.txtUid.ReadOnly = true;
             this.txtUid.Size = new System.Drawing.Size(199, 22);
@@ -135,7 +136,7 @@
             this.Controls.Add(this.btnAddEmp);
             this.Controls.Add(this.btnHome);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "EmployeeDetails";
             this.Text = "Employee Details";
             this.Load += new System.EventHandler(this.EmployeeDetails_Load);
