@@ -42,17 +42,28 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+<<<<<<< HEAD
             this.dataGridView1.Location = new System.Drawing.Point(43, 120);
+=======
+            this.dataGridView1.Location = new System.Drawing.Point(57, 148);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 25de8af08f792885a05077d37e0eb3be925c2c01
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(876, 439);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // btnHome
             // 
+<<<<<<< HEAD
             this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHome.Location = new System.Drawing.Point(956, 120);
+=======
+            this.btnHome.Location = new System.Drawing.Point(1275, 148);
+            this.btnHome.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 25de8af08f792885a05077d37e0eb3be925c2c01
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(152, 49);
             this.btnHome.TabIndex = 20;
@@ -62,8 +73,13 @@
             // 
             // btnAddEmp
             // 
+<<<<<<< HEAD
             this.btnAddEmp.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddEmp.Location = new System.Drawing.Point(956, 205);
+=======
+            this.btnAddEmp.Location = new System.Drawing.Point(1275, 252);
+            this.btnAddEmp.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 25de8af08f792885a05077d37e0eb3be925c2c01
             this.btnAddEmp.Name = "btnAddEmp";
             this.btnAddEmp.Size = new System.Drawing.Size(152, 49);
             this.btnAddEmp.TabIndex = 21;
@@ -73,8 +89,13 @@
             // 
             // searchbtn
             // 
+<<<<<<< HEAD
             this.searchbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchbtn.Location = new System.Drawing.Point(357, 50);
+=======
+            this.searchbtn.Location = new System.Drawing.Point(357, 52);
+            this.searchbtn.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 25de8af08f792885a05077d37e0eb3be925c2c01
             this.searchbtn.Name = "searchbtn";
             this.searchbtn.Size = new System.Drawing.Size(106, 34);
             this.searchbtn.TabIndex = 84;
@@ -84,16 +105,26 @@
             // 
             // searchtxt
             // 
+<<<<<<< HEAD
             this.searchtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchtxt.Location = new System.Drawing.Point(55, 55);
+=======
+            this.searchtxt.Location = new System.Drawing.Point(55, 62);
+            this.searchtxt.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 25de8af08f792885a05077d37e0eb3be925c2c01
             this.searchtxt.Name = "searchtxt";
             this.searchtxt.Size = new System.Drawing.Size(285, 26);
             this.searchtxt.TabIndex = 83;
             // 
             // dlbtn
             // 
+<<<<<<< HEAD
             this.dlbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dlbtn.Location = new System.Drawing.Point(956, 295);
+=======
+            this.dlbtn.Location = new System.Drawing.Point(1275, 354);
+            this.dlbtn.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 25de8af08f792885a05077d37e0eb3be925c2c01
             this.dlbtn.Name = "dlbtn";
             this.dlbtn.Size = new System.Drawing.Size(152, 53);
             this.dlbtn.TabIndex = 85;
@@ -113,8 +144,13 @@
             // 
             // txtUid
             // 
+<<<<<<< HEAD
             this.txtUid.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUid.Location = new System.Drawing.Point(634, 56);
+=======
+            this.txtUid.Location = new System.Drawing.Point(675, 65);
+            this.txtUid.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 25de8af08f792885a05077d37e0eb3be925c2c01
             this.txtUid.Name = "txtUid";
             this.txtUid.ReadOnly = true;
             this.txtUid.Size = new System.Drawing.Size(285, 24);
@@ -134,6 +170,10 @@
             this.Controls.Add(this.btnAddEmp);
             this.Controls.Add(this.btnHome);
             this.Controls.Add(this.dataGridView1);
+<<<<<<< HEAD
+=======
+            this.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 25de8af08f792885a05077d37e0eb3be925c2c01
             this.Name = "EmployeeDetails";
             this.Text = "Employee Details";
             this.Load += new System.EventHandler(this.EmployeeDetails_Load);
