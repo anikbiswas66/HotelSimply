@@ -29,7 +29,6 @@ namespace HotelSimply.Controls
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CustomerCheckOut));
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
@@ -54,7 +53,6 @@ namespace HotelSimply.Controls
             this.bunifuLabel5 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuDatePicker1 = new Bunifu.UI.WinForms.BunifuDatePicker();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.SuspendLayout();
             // 
             // bunifuLabel1
@@ -470,10 +468,6 @@ namespace HotelSimply.Controls
             this.bunifuDatePicker1.Size = new System.Drawing.Size(299, 32);
             this.bunifuDatePicker1.TabIndex = 10;
             // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.TargetControl = this;
-            // 
             // CustomerCheckOut
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -508,6 +502,5 @@ namespace HotelSimply.Controls
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel5;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton1;
         private Bunifu.UI.WinForms.BunifuDatePicker bunifuDatePicker1;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
     }
 }

@@ -23,6 +23,7 @@ namespace HotelSimply
             Application.Exit();
         }
         public string type, name;
+        public string isbooked="No";
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
@@ -32,7 +33,7 @@ namespace HotelSimply
                 {
 
                     string query;
-                    query = "insert into [Hotel_Management].[dbo].[Room](roomNo,type,bed,price) values('" + txtRoomNo.Text + "','" + cmbRoomType.SelectedItem + "','" + cmbBed.SelectedItem + "','" + txtPrice.Text + "')";
+                    query = "insert into [Hotel_Management].[dbo].[Room](roomNo,type,bed,price,booked) values('" + txtRoomNo.Text + "','" + cmbRoomType.SelectedItem + "','" + cmbBed.SelectedItem + "','" + txtPrice.Text + "','"+isbooked+"')";
 
 
                     int row = DataAccess.ExecuteQuery(query);
@@ -42,11 +43,12 @@ namespace HotelSimply
                     {
                         MessageBox.Show("Operation Completed");
 
-                        RoomDetails rd = new RoomDetails();
+                        RoomDetails rd = new RoomDetails("Admin");
                         rd.name = this.name;
                         rd.type = this.type;
                         rd.Show();
                         this.Hide();
+
                     }
 
                 }

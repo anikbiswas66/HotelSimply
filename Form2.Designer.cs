@@ -29,12 +29,12 @@ namespace HotelSimply
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminHome));
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.bunifuButton2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuButton3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuLabel14 = new Bunifu.UI.WinForms.BunifuLabel();
@@ -51,22 +51,18 @@ namespace HotelSimply
             this.bunifuLabel11 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel12 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel13 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.bunifuButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuPanel2 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.button2 = new System.Windows.Forms.Button();
             this.bunifuPanel3 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuButton4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuPanel4 = new Bunifu.UI.WinForms.BunifuPanel();
-            this.customer_Details1 = new HotelSimply.Controls.Customer_Details();
-            this.add_Room1 = new HotelSimply.Controls.Add_Room();
-            this.employee1 = new HotelSimply.Controls.Employee();
-            this.room_Details1 = new HotelSimply.Controls.Room_Details();
-            this.button2 = new System.Windows.Forms.Button();
-            this.bunifuPanel1.SuspendLayout();
+            this.logout = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuPanel2.SuspendLayout();
-            this.bunifuPanel3.SuspendLayout();
             this.bunifuPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuButton2
@@ -247,6 +243,7 @@ namespace HotelSimply
             this.bunifuButton3.TextMarginLeft = 0;
             this.bunifuButton3.TextPadding = new System.Windows.Forms.Padding(0);
             this.bunifuButton3.UseDefaultRadiusAndThickness = true;
+            this.bunifuButton3.Click += new System.EventHandler(this.bunifuButton3_Click);
             // 
             // bunifuLabel14
             // 
@@ -557,7 +554,6 @@ namespace HotelSimply
             this.bunifuPanel1.BorderColor = System.Drawing.Color.Transparent;
             this.bunifuPanel1.BorderRadius = 30;
             this.bunifuPanel1.BorderThickness = 1;
-            this.bunifuPanel1.Controls.Add(this.add_Room1);
             this.bunifuPanel1.Location = new System.Drawing.Point(12, 132);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
@@ -573,12 +569,21 @@ namespace HotelSimply
             this.bunifuPanel2.BorderRadius = 30;
             this.bunifuPanel2.BorderThickness = 1;
             this.bunifuPanel2.Controls.Add(this.button2);
-            this.bunifuPanel2.Controls.Add(this.customer_Details1);
             this.bunifuPanel2.Location = new System.Drawing.Point(12, 132);
             this.bunifuPanel2.Name = "bunifuPanel2";
             this.bunifuPanel2.ShowBorders = true;
             this.bunifuPanel2.Size = new System.Drawing.Size(1325, 528);
             this.bunifuPanel2.TabIndex = 9;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(1137, 447);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(147, 42);
+            this.button2.TabIndex = 73;
+            this.button2.Text = "Logout";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // bunifuPanel3
             // 
@@ -588,7 +593,6 @@ namespace HotelSimply
             this.bunifuPanel3.BorderColor = System.Drawing.Color.Transparent;
             this.bunifuPanel3.BorderRadius = 30;
             this.bunifuPanel3.BorderThickness = 1;
-            this.bunifuPanel3.Controls.Add(this.room_Details1);
             this.bunifuPanel3.Location = new System.Drawing.Point(12, 132);
             this.bunifuPanel3.Name = "bunifuPanel3";
             this.bunifuPanel3.ShowBorders = true;
@@ -693,54 +697,113 @@ namespace HotelSimply
             this.bunifuPanel4.BorderColor = System.Drawing.Color.Transparent;
             this.bunifuPanel4.BorderRadius = 30;
             this.bunifuPanel4.BorderThickness = 1;
-            this.bunifuPanel4.Controls.Add(this.employee1);
+            this.bunifuPanel4.Controls.Add(this.logout);
+            this.bunifuPanel4.Controls.Add(this.pictureBox1);
             this.bunifuPanel4.Location = new System.Drawing.Point(12, 132);
             this.bunifuPanel4.Name = "bunifuPanel4";
             this.bunifuPanel4.ShowBorders = true;
             this.bunifuPanel4.Size = new System.Drawing.Size(1325, 528);
             this.bunifuPanel4.TabIndex = 12;
             // 
-            // customer_Details1
+            // logout
             // 
-            this.customer_Details1.BackColor = System.Drawing.Color.White;
-            this.customer_Details1.Location = new System.Drawing.Point(18, 44);
-            this.customer_Details1.Name = "customer_Details1";
-            this.customer_Details1.Size = new System.Drawing.Size(1266, 462);
-            this.customer_Details1.TabIndex = 0;
+            this.logout.AllowAnimations = true;
+            this.logout.AllowMouseEffects = true;
+            this.logout.AllowToggling = false;
+            this.logout.AnimationSpeed = 200;
+            this.logout.AutoGenerateColors = false;
+            this.logout.AutoRoundBorders = false;
+            this.logout.AutoSizeLeftIcon = true;
+            this.logout.AutoSizeRightIcon = true;
+            this.logout.BackColor = System.Drawing.Color.Transparent;
+            this.logout.BackColor1 = System.Drawing.Color.White;
+            this.logout.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("logout.BackgroundImage")));
+            this.logout.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.logout.ButtonText = "Log out";
+            this.logout.ButtonTextMarginLeft = 0;
+            this.logout.ColorContrastOnClick = 45;
+            this.logout.ColorContrastOnHover = 45;
+            this.logout.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges5.BottomLeft = true;
+            borderEdges5.BottomRight = true;
+            borderEdges5.TopLeft = true;
+            borderEdges5.TopRight = true;
+            this.logout.CustomizableEdges = borderEdges5;
+            this.logout.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.logout.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.logout.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.logout.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.logout.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.logout.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logout.ForeColor = System.Drawing.Color.Black;
+            this.logout.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.logout.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.logout.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.logout.IconMarginLeft = 11;
+            this.logout.IconPadding = 10;
+            this.logout.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.logout.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.logout.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.logout.IconSize = 25;
+            this.logout.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.logout.IdleBorderRadius = 1;
+            this.logout.IdleBorderThickness = 1;
+            this.logout.IdleFillColor = System.Drawing.Color.White;
+            this.logout.IdleIconLeftImage = null;
+            this.logout.IdleIconRightImage = null;
+            this.logout.IndicateFocus = false;
+            this.logout.Location = new System.Drawing.Point(1105, 400);
+            this.logout.Name = "logout";
+            this.logout.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.logout.OnDisabledState.BorderRadius = 1;
+            this.logout.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.logout.OnDisabledState.BorderThickness = 1;
+            this.logout.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.logout.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.logout.OnDisabledState.IconLeftImage = null;
+            this.logout.OnDisabledState.IconRightImage = null;
+            this.logout.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.logout.onHoverState.BorderRadius = 1;
+            this.logout.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.logout.onHoverState.BorderThickness = 1;
+            this.logout.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.logout.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.logout.onHoverState.IconLeftImage = null;
+            this.logout.onHoverState.IconRightImage = null;
+            this.logout.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.logout.OnIdleState.BorderRadius = 1;
+            this.logout.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.logout.OnIdleState.BorderThickness = 1;
+            this.logout.OnIdleState.FillColor = System.Drawing.Color.White;
+            this.logout.OnIdleState.ForeColor = System.Drawing.Color.Black;
+            this.logout.OnIdleState.IconLeftImage = null;
+            this.logout.OnIdleState.IconRightImage = null;
+            this.logout.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.logout.OnPressedState.BorderRadius = 1;
+            this.logout.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.logout.OnPressedState.BorderThickness = 1;
+            this.logout.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.logout.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.logout.OnPressedState.IconLeftImage = null;
+            this.logout.OnPressedState.IconRightImage = null;
+            this.logout.Size = new System.Drawing.Size(150, 54);
+            this.logout.TabIndex = 4;
+            this.logout.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.logout.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.logout.TextMarginLeft = 0;
+            this.logout.TextPadding = new System.Windows.Forms.Padding(0);
+            this.logout.UseDefaultRadiusAndThickness = true;
+            this.logout.Click += new System.EventHandler(this.logout_Click);
             // 
-            // add_Room1
+            // pictureBox1
             // 
-            this.add_Room1.BackColor = System.Drawing.Color.White;
-            this.add_Room1.Location = new System.Drawing.Point(22, 17);
-            this.add_Room1.Name = "add_Room1";
-            this.add_Room1.Size = new System.Drawing.Size(1243, 508);
-            this.add_Room1.TabIndex = 0;
-            // 
-            // employee1
-            // 
-            this.employee1.BackColor = System.Drawing.Color.White;
-            this.employee1.Location = new System.Drawing.Point(31, 17);
-            this.employee1.Name = "employee1";
-            this.employee1.Size = new System.Drawing.Size(1291, 508);
-            this.employee1.TabIndex = 0;
-            // 
-            // room_Details1
-            // 
-            this.room_Details1.BackColor = System.Drawing.Color.White;
-            this.room_Details1.Location = new System.Drawing.Point(13, 52);
-            this.room_Details1.Name = "room_Details1";
-            this.room_Details1.Size = new System.Drawing.Size(1283, 454);
-            this.room_Details1.TabIndex = 0;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(1137, 447);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(147, 42);
-            this.button2.TabIndex = 73;
-            this.button2.Text = "Logout";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1301, 522);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
             // AdminHome
             // 
@@ -753,19 +816,18 @@ namespace HotelSimply
             this.Controls.Add(this.bunifuLabel14);
             this.Controls.Add(this.bunifuButton3);
             this.Controls.Add(this.bunifuButton2);
-            this.Controls.Add(this.bunifuPanel2);
-            this.Controls.Add(this.bunifuPanel1);
             this.Controls.Add(this.bunifuPanel4);
             this.Controls.Add(this.bunifuPanel3);
+            this.Controls.Add(this.bunifuPanel2);
+            this.Controls.Add(this.bunifuPanel1);
             this.ForeColor = System.Drawing.SystemColors.Highlight;
             this.Name = "AdminHome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin Home";
             this.Load += new System.EventHandler(this.Form2_Load);
-            this.bunifuPanel1.ResumeLayout(false);
             this.bunifuPanel2.ResumeLayout(false);
-            this.bunifuPanel3.ResumeLayout(false);
             this.bunifuPanel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -788,7 +850,6 @@ namespace HotelSimply
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel11;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel12;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel13;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton1;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
         private Controls.Add_Room add_Room1;
@@ -800,5 +861,7 @@ namespace HotelSimply
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel4;
         private Controls.Employee employee1;
         private System.Windows.Forms.Button button2;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton logout;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

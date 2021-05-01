@@ -12,9 +12,11 @@ namespace HotelSimply
 {
     public partial class RoomDetails : Form
     {
-        public RoomDetails()
+        public string UserType;
+        public RoomDetails(String type)
         {
             InitializeComponent();
+            this.UserType = type;
         }
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
@@ -26,11 +28,21 @@ namespace HotelSimply
 
         private void btnHome_Click(object sender, EventArgs e)
         {
-            AdminHome A = new AdminHome();
-            A.name = this.name;
-            A.type = this.type;
-            A.Show();
-            this.Hide();
+            if (UserType == "Admin")
+            {
+                AdminHome A = new AdminHome();
+                A.name = this.name;
+                A.type = this.type;
+                A.Show();
+                this.Hide();
+            }
+            else if (UserType == "Receptionist")
+            {
+                Receptionist receptionist = new Receptionist();
+                receptionist.Show();
+                this.Hide();
+            }
+            
         }
 
         private void RoomDetails_Load(object sender, EventArgs e)

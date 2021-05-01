@@ -35,10 +35,9 @@
             // 
             // btnHome
             // 
-            this.btnHome.Location = new System.Drawing.Point(803, 59);
-            this.btnHome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHome.Location = new System.Drawing.Point(602, 48);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(183, 60);
+            this.btnHome.Size = new System.Drawing.Size(137, 49);
             this.btnHome.TabIndex = 20;
             this.btnHome.Text = "Home";
             this.btnHome.UseVisualStyleBackColor = true;
@@ -47,22 +46,20 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(149, 153);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Location = new System.Drawing.Point(30, 124);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(747, 361);
+            this.dataGridView1.Size = new System.Drawing.Size(749, 293);
             this.dataGridView1.TabIndex = 21;
             // 
             // RoomDetails
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Coral;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnHome);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "RoomDetails";
             this.Text = "Room Details";
             this.Load += new System.EventHandler(this.RoomDetails_Load);

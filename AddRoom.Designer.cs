@@ -77,8 +77,7 @@
             this.txtPrice.IconRight = null;
             this.txtPrice.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtPrice.Lines = new string[0];
-            this.txtPrice.Location = new System.Drawing.Point(263, 469);
-            this.txtPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPrice.Location = new System.Drawing.Point(197, 403);
             this.txtPrice.MaxLength = 32767;
             this.txtPrice.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtPrice.Modified = false;
@@ -104,7 +103,7 @@
             stateProperties4.ForeColor = System.Drawing.Color.Empty;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtPrice.OnIdleState = stateProperties4;
-            this.txtPrice.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPrice.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtPrice.PasswordChar = '\0';
             this.txtPrice.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtPrice.PlaceholderText = "Enter text";
@@ -114,7 +113,7 @@
             this.txtPrice.SelectionLength = 0;
             this.txtPrice.SelectionStart = 0;
             this.txtPrice.ShortcutsEnabled = true;
-            this.txtPrice.Size = new System.Drawing.Size(435, 43);
+            this.txtPrice.Size = new System.Drawing.Size(326, 35);
             this.txtPrice.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Material;
             this.txtPrice.TabIndex = 18;
             this.txtPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -152,8 +151,7 @@
             this.txtRoomNo.IconRight = null;
             this.txtRoomNo.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtRoomNo.Lines = new string[0];
-            this.txtRoomNo.Location = new System.Drawing.Point(255, 160);
-            this.txtRoomNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRoomNo.Location = new System.Drawing.Point(191, 130);
             this.txtRoomNo.MaxLength = 32767;
             this.txtRoomNo.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtRoomNo.Modified = false;
@@ -179,7 +177,7 @@
             stateProperties8.ForeColor = System.Drawing.Color.Empty;
             stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtRoomNo.OnIdleState = stateProperties8;
-            this.txtRoomNo.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRoomNo.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtRoomNo.PasswordChar = '\0';
             this.txtRoomNo.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtRoomNo.PlaceholderText = "Enter text";
@@ -189,7 +187,7 @@
             this.txtRoomNo.SelectionLength = 0;
             this.txtRoomNo.SelectionStart = 0;
             this.txtRoomNo.ShortcutsEnabled = true;
-            this.txtRoomNo.Size = new System.Drawing.Size(443, 49);
+            this.txtRoomNo.Size = new System.Drawing.Size(332, 40);
             this.txtRoomNo.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Material;
             this.txtRoomNo.TabIndex = 17;
             this.txtRoomNo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -239,10 +237,9 @@
             "Double",
             "Triple"});
             this.cmbBed.ItemTopMargin = 3;
-            this.cmbBed.Location = new System.Drawing.Point(256, 370);
-            this.cmbBed.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbBed.Location = new System.Drawing.Point(194, 315);
             this.cmbBed.Name = "cmbBed";
-            this.cmbBed.Size = new System.Drawing.Size(437, 32);
+            this.cmbBed.Size = new System.Drawing.Size(329, 32);
             this.cmbBed.TabIndex = 16;
             this.cmbBed.Text = null;
             this.cmbBed.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
@@ -285,10 +282,9 @@
             "Ac",
             "Non-Ac"});
             this.cmbRoomType.ItemTopMargin = 3;
-            this.cmbRoomType.Location = new System.Drawing.Point(256, 274);
-            this.cmbRoomType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbRoomType.Location = new System.Drawing.Point(191, 237);
             this.cmbRoomType.Name = "cmbRoomType";
-            this.cmbRoomType.Size = new System.Drawing.Size(440, 32);
+            this.cmbRoomType.Size = new System.Drawing.Size(331, 32);
             this.cmbRoomType.TabIndex = 15;
             this.cmbRoomType.Text = null;
             this.cmbRoomType.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
@@ -341,8 +337,7 @@
             this.btnAdd.IdleIconLeftImage = null;
             this.btnAdd.IdleIconRightImage = null;
             this.btnAdd.IndicateFocus = false;
-            this.btnAdd.Location = new System.Drawing.Point(380, 574);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdd.Location = new System.Drawing.Point(285, 466);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnAdd.OnDisabledState.BorderRadius = 45;
@@ -376,7 +371,7 @@
             this.btnAdd.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnAdd.OnPressedState.IconLeftImage = null;
             this.btnAdd.OnPressedState.IconRightImage = null;
-            this.btnAdd.Size = new System.Drawing.Size(199, 55);
+            this.btnAdd.Size = new System.Drawing.Size(149, 45);
             this.btnAdd.TabIndex = 14;
             this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnAdd.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -392,11 +387,10 @@
             this.bunifuLabel5.Cursor = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel5.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel5.Location = new System.Drawing.Point(256, 434);
-            this.bunifuLabel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel5.Location = new System.Drawing.Point(88, 403);
             this.bunifuLabel5.Name = "bunifuLabel5";
             this.bunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel5.Size = new System.Drawing.Size(47, 23);
+            this.bunifuLabel5.Size = new System.Drawing.Size(37, 21);
             this.bunifuLabel5.TabIndex = 13;
             this.bunifuLabel5.Text = "Price";
             this.bunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -409,11 +403,10 @@
             this.bunifuLabel4.Cursor = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel4.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel4.Location = new System.Drawing.Point(252, 338);
-            this.bunifuLabel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel4.Location = new System.Drawing.Point(88, 326);
             this.bunifuLabel4.Name = "bunifuLabel4";
             this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel4.Size = new System.Drawing.Size(38, 23);
+            this.bunifuLabel4.Size = new System.Drawing.Size(30, 21);
             this.bunifuLabel4.TabIndex = 12;
             this.bunifuLabel4.Text = "Bed";
             this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -426,11 +419,10 @@
             this.bunifuLabel3.Cursor = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel3.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel3.Location = new System.Drawing.Point(252, 233);
-            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel3.Location = new System.Drawing.Point(88, 237);
             this.bunifuLabel3.Name = "bunifuLabel3";
             this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel3.Size = new System.Drawing.Size(109, 23);
+            this.bunifuLabel3.Size = new System.Drawing.Size(86, 21);
             this.bunifuLabel3.TabIndex = 11;
             this.bunifuLabel3.Text = "Room Type";
             this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -443,11 +435,10 @@
             this.bunifuLabel2.Cursor = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel2.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel2.Location = new System.Drawing.Point(252, 128);
-            this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel2.Location = new System.Drawing.Point(88, 140);
             this.bunifuLabel2.Name = "bunifuLabel2";
             this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(91, 23);
+            this.bunifuLabel2.Size = new System.Drawing.Size(71, 21);
             this.bunifuLabel2.TabIndex = 10;
             this.bunifuLabel2.Text = "Room No";
             this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -455,10 +446,9 @@
             // 
             // btnHome
             // 
-            this.btnHome.Location = new System.Drawing.Point(808, 50);
-            this.btnHome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHome.Location = new System.Drawing.Point(606, 41);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(183, 60);
+            this.btnHome.Size = new System.Drawing.Size(137, 49);
             this.btnHome.TabIndex = 19;
             this.btnHome.Text = "Home";
             this.btnHome.UseVisualStyleBackColor = true;
@@ -466,10 +456,10 @@
             // 
             // AddRoom
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Salmon;
-            this.ClientSize = new System.Drawing.Size(1087, 759);
+            this.ClientSize = new System.Drawing.Size(815, 609);
             this.Controls.Add(this.btnHome);
             this.Controls.Add(this.txtPrice);
             this.Controls.Add(this.txtRoomNo);
@@ -480,7 +470,6 @@
             this.Controls.Add(this.bunifuLabel4);
             this.Controls.Add(this.bunifuLabel3);
             this.Controls.Add(this.bunifuLabel2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AddRoom";
             this.Text = "Add Room";
             this.ResumeLayout(false);

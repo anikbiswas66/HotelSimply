@@ -26,8 +26,9 @@ namespace HotelSimply
                 adp.Fill(ds);
 
                 DataTable dt = ds.Tables[0];
-
+                con.Close();
                 return dt;
+                
             }
             catch (Exception)
             {
@@ -44,7 +45,9 @@ namespace HotelSimply
 
                 SqlCommand cmd = new SqlCommand(query, con);
                 int row = cmd.ExecuteNonQuery();
+                con.Close();
                 return row;
+                
             }
             catch (Exception)
             {
@@ -60,12 +63,38 @@ namespace HotelSimply
 
                 SqlCommand cmd = new SqlCommand(query, con);
                 int row = cmd.ExecuteNonQuery();
+                con.Close();
                 return row;
             }
             catch (Exception)
             {
                 return -1;
             }
+
         }
+
+
+        public static DataTable ExecuteQuery2(string query)
+        {
+            try
+            {
+                SqlConnection con = new SqlConnection(_connectionString);
+                con.Open();
+
+                SqlCommand cmd = new SqlCommand(query, con);
+                DataTable dt = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(dt);
+
+                con.Close();
+                return dt;
+
+            }
+            catch (Exception)
+            {
+                return new DataTable();
+            }
+        }
+
     }
 }

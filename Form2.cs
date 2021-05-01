@@ -35,7 +35,7 @@ namespace HotelSimply
 
         private void bunifuButton4_Click(object sender, EventArgs e)
         {
-            RoomDetails rd = new RoomDetails();
+            RoomDetails rd = new RoomDetails("Admin");
             rd.name = this.name;
             rd.type = this.type;
             rd.Show();
@@ -55,6 +55,20 @@ namespace HotelSimply
         {
             LoginForm lg = new LoginForm();
             lg.Show();
+            this.Hide();
+        }
+
+        private void bunifuButton3_Click(object sender, EventArgs e)
+        {
+            CustomerLists l = new CustomerLists();
+            l.Show();
+            this.Hide();
+        }
+
+        private void logout_Click(object sender, EventArgs e)
+        {
+            LoginForm login = new LoginForm();
+            login.Show();
             this.Hide();
         }
 
