@@ -120,7 +120,8 @@ namespace HotelSimply
             this.bunifuButton4.IdleIconLeftImage = null;
             this.bunifuButton4.IdleIconRightImage = null;
             this.bunifuButton4.IndicateFocus = false;
-            this.bunifuButton4.Location = new System.Drawing.Point(643, 65);
+            this.bunifuButton4.Location = new System.Drawing.Point(857, 80);
+            this.bunifuButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuButton4.Name = "bunifuButton4";
             this.bunifuButton4.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton4.OnDisabledState.BorderRadius = 50;
@@ -154,13 +155,14 @@ namespace HotelSimply
             this.bunifuButton4.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton4.OnPressedState.IconLeftImage = null;
             this.bunifuButton4.OnPressedState.IconRightImage = null;
-            this.bunifuButton4.Size = new System.Drawing.Size(193, 52);
+            this.bunifuButton4.Size = new System.Drawing.Size(257, 64);
             this.bunifuButton4.TabIndex = 15;
             this.bunifuButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton4.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.bunifuButton4.TextMarginLeft = 0;
             this.bunifuButton4.TextPadding = new System.Windows.Forms.Padding(0);
             this.bunifuButton4.UseDefaultRadiusAndThickness = true;
+            this.bunifuButton4.Click += new System.EventHandler(this.bunifuButton4_Click);
             // 
             // bunifuLabel14
             // 
@@ -170,10 +172,11 @@ namespace HotelSimply
             this.bunifuLabel14.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel14.Font = new System.Drawing.Font("Century Gothic", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel14.ForeColor = System.Drawing.Color.Black;
-            this.bunifuLabel14.Location = new System.Drawing.Point(24, 30);
+            this.bunifuLabel14.Location = new System.Drawing.Point(32, 37);
+            this.bunifuLabel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuLabel14.Name = "bunifuLabel14";
             this.bunifuLabel14.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel14.Size = new System.Drawing.Size(241, 49);
+            this.bunifuLabel14.Size = new System.Drawing.Size(297, 61);
             this.bunifuLabel14.TabIndex = 14;
             this.bunifuLabel14.Text = "Receptionist";
             this.bunifuLabel14.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -226,7 +229,8 @@ namespace HotelSimply
             this.bunifuButton3.IdleIconLeftImage = null;
             this.bunifuButton3.IdleIconRightImage = null;
             this.bunifuButton3.IndicateFocus = false;
-            this.bunifuButton3.Location = new System.Drawing.Point(854, 64);
+            this.bunifuButton3.Location = new System.Drawing.Point(1139, 79);
+            this.bunifuButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuButton3.Name = "bunifuButton3";
             this.bunifuButton3.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton3.OnDisabledState.BorderRadius = 52;
@@ -260,7 +264,7 @@ namespace HotelSimply
             this.bunifuButton3.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton3.OnPressedState.IconLeftImage = null;
             this.bunifuButton3.OnPressedState.IconRightImage = null;
-            this.bunifuButton3.Size = new System.Drawing.Size(270, 53);
+            this.bunifuButton3.Size = new System.Drawing.Size(360, 65);
             this.bunifuButton3.TabIndex = 13;
             this.bunifuButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton3.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -315,7 +319,8 @@ namespace HotelSimply
             this.bunifuButton2.IdleIconLeftImage = null;
             this.bunifuButton2.IdleIconRightImage = null;
             this.bunifuButton2.IndicateFocus = false;
-            this.bunifuButton2.Location = new System.Drawing.Point(1154, 64);
+            this.bunifuButton2.Location = new System.Drawing.Point(1539, 79);
+            this.bunifuButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuButton2.Name = "bunifuButton2";
             this.bunifuButton2.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton2.OnDisabledState.BorderRadius = 52;
@@ -349,7 +354,7 @@ namespace HotelSimply
             this.bunifuButton2.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton2.OnPressedState.IconLeftImage = null;
             this.bunifuButton2.OnPressedState.IconRightImage = null;
-            this.bunifuButton2.Size = new System.Drawing.Size(170, 53);
+            this.bunifuButton2.Size = new System.Drawing.Size(227, 65);
             this.bunifuButton2.TabIndex = 12;
             this.bunifuButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton2.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -405,7 +410,8 @@ namespace HotelSimply
             this.bunifuButton1.IdleIconLeftImage = null;
             this.bunifuButton1.IdleIconRightImage = null;
             this.bunifuButton1.IndicateFocus = false;
-            this.bunifuButton1.Location = new System.Drawing.Point(329, 65);
+            this.bunifuButton1.Location = new System.Drawing.Point(439, 80);
+            this.bunifuButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuButton1.Name = "bunifuButton1";
             this.bunifuButton1.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton1.OnDisabledState.BorderRadius = 50;
@@ -439,7 +445,7 @@ namespace HotelSimply
             this.bunifuButton1.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton1.OnPressedState.IconLeftImage = null;
             this.bunifuButton1.OnPressedState.IconRightImage = null;
-            this.bunifuButton1.Size = new System.Drawing.Size(292, 52);
+            this.bunifuButton1.Size = new System.Drawing.Size(389, 64);
             this.bunifuButton1.TabIndex = 16;
             this.bunifuButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -457,18 +463,20 @@ namespace HotelSimply
             this.roomPanel.BorderRadius = 30;
             this.roomPanel.BorderThickness = 1;
             this.roomPanel.Controls.Add(this.room_Details1);
-            this.roomPanel.Location = new System.Drawing.Point(12, 135);
+            this.roomPanel.Location = new System.Drawing.Point(16, 166);
+            this.roomPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.roomPanel.Name = "roomPanel";
             this.roomPanel.ShowBorders = true;
-            this.roomPanel.Size = new System.Drawing.Size(1325, 528);
+            this.roomPanel.Size = new System.Drawing.Size(1767, 650);
             this.roomPanel.TabIndex = 18;
             // 
             // room_Details1
             // 
             this.room_Details1.BackColor = System.Drawing.Color.White;
-            this.room_Details1.Location = new System.Drawing.Point(25, 44);
+            this.room_Details1.Location = new System.Drawing.Point(33, 54);
+            this.room_Details1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.room_Details1.Name = "room_Details1";
-            this.room_Details1.Size = new System.Drawing.Size(1277, 467);
+            this.room_Details1.Size = new System.Drawing.Size(1703, 575);
             this.room_Details1.TabIndex = 0;
             // 
             // cusPanel
@@ -480,18 +488,20 @@ namespace HotelSimply
             this.cusPanel.BorderRadius = 30;
             this.cusPanel.BorderThickness = 1;
             this.cusPanel.Controls.Add(this.customer_Details1);
-            this.cusPanel.Location = new System.Drawing.Point(12, 135);
+            this.cusPanel.Location = new System.Drawing.Point(16, 166);
+            this.cusPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cusPanel.Name = "cusPanel";
             this.cusPanel.ShowBorders = true;
-            this.cusPanel.Size = new System.Drawing.Size(1325, 528);
+            this.cusPanel.Size = new System.Drawing.Size(1767, 650);
             this.cusPanel.TabIndex = 19;
             // 
             // customer_Details1
             // 
             this.customer_Details1.BackColor = System.Drawing.Color.White;
-            this.customer_Details1.Location = new System.Drawing.Point(12, 44);
+            this.customer_Details1.Location = new System.Drawing.Point(16, 54);
+            this.customer_Details1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.customer_Details1.Name = "customer_Details1";
-            this.customer_Details1.Size = new System.Drawing.Size(1257, 467);
+            this.customer_Details1.Size = new System.Drawing.Size(1676, 575);
             this.customer_Details1.TabIndex = 0;
             this.customer_Details1.Load += new System.EventHandler(this.customer_Details1_Load);
             // 
@@ -504,18 +514,20 @@ namespace HotelSimply
             this.bunifuPanel1.BorderRadius = 30;
             this.bunifuPanel1.BorderThickness = 1;
             this.bunifuPanel1.Controls.Add(this.customer_Registration1);
-            this.bunifuPanel1.Location = new System.Drawing.Point(12, 135);
+            this.bunifuPanel1.Location = new System.Drawing.Point(16, 166);
+            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
-            this.bunifuPanel1.Size = new System.Drawing.Size(1325, 528);
+            this.bunifuPanel1.Size = new System.Drawing.Size(1767, 650);
             this.bunifuPanel1.TabIndex = 20;
             // 
             // customer_Registration1
             // 
             this.customer_Registration1.BackColor = System.Drawing.Color.White;
-            this.customer_Registration1.Location = new System.Drawing.Point(9, 16);
+            this.customer_Registration1.Location = new System.Drawing.Point(12, 20);
+            this.customer_Registration1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.customer_Registration1.Name = "customer_Registration1";
-            this.customer_Registration1.Size = new System.Drawing.Size(1293, 509);
+            this.customer_Registration1.Size = new System.Drawing.Size(1724, 626);
             this.customer_Registration1.TabIndex = 0;
             // 
             // bunifuPanel2
@@ -534,10 +546,11 @@ namespace HotelSimply
             this.bunifuPanel2.Controls.Add(this.bunifuTextBox1);
             this.bunifuPanel2.Controls.Add(this.bunifuLabel2);
             this.bunifuPanel2.Controls.Add(this.bunifuLabel1);
-            this.bunifuPanel2.Location = new System.Drawing.Point(15, 135);
+            this.bunifuPanel2.Location = new System.Drawing.Point(20, 166);
+            this.bunifuPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuPanel2.Name = "bunifuPanel2";
             this.bunifuPanel2.ShowBorders = true;
-            this.bunifuPanel2.Size = new System.Drawing.Size(1325, 528);
+            this.bunifuPanel2.Size = new System.Drawing.Size(1767, 650);
             this.bunifuPanel2.TabIndex = 21;
             // 
             // bunifuButton5
@@ -587,7 +600,8 @@ namespace HotelSimply
             this.bunifuButton5.IdleIconLeftImage = null;
             this.bunifuButton5.IdleIconRightImage = null;
             this.bunifuButton5.IndicateFocus = false;
-            this.bunifuButton5.Location = new System.Drawing.Point(924, 463);
+            this.bunifuButton5.Location = new System.Drawing.Point(1232, 570);
+            this.bunifuButton5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuButton5.Name = "bunifuButton5";
             this.bunifuButton5.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton5.OnDisabledState.BorderRadius = 1;
@@ -621,7 +635,7 @@ namespace HotelSimply
             this.bunifuButton5.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton5.OnPressedState.IconLeftImage = null;
             this.bunifuButton5.OnPressedState.IconRightImage = null;
-            this.bunifuButton5.Size = new System.Drawing.Size(150, 39);
+            this.bunifuButton5.Size = new System.Drawing.Size(200, 48);
             this.bunifuButton5.TabIndex = 7;
             this.bunifuButton5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton5.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -636,10 +650,11 @@ namespace HotelSimply
             this.bunifuLabel4.Cursor = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel4.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel4.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.bunifuLabel4.Location = new System.Drawing.Point(459, 349);
+            this.bunifuLabel4.Location = new System.Drawing.Point(612, 430);
+            this.bunifuLabel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuLabel4.Name = "bunifuLabel4";
             this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel4.Size = new System.Drawing.Size(130, 28);
+            this.bunifuLabel4.Size = new System.Drawing.Size(166, 35);
             this.bunifuLabel4.TabIndex = 6;
             this.bunifuLabel4.Text = "Room Number";
             this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -652,10 +667,11 @@ namespace HotelSimply
             this.bunifuLabel3.Cursor = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel3.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel3.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.bunifuLabel3.Location = new System.Drawing.Point(459, 249);
+            this.bunifuLabel3.Location = new System.Drawing.Point(612, 306);
+            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuLabel3.Name = "bunifuLabel3";
             this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel3.Size = new System.Drawing.Size(19, 28);
+            this.bunifuLabel3.Size = new System.Drawing.Size(25, 35);
             this.bunifuLabel3.TabIndex = 5;
             this.bunifuLabel3.Text = "ID";
             this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -688,7 +704,8 @@ namespace HotelSimply
             this.bunifuTextBox3.IconRight = null;
             this.bunifuTextBox3.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox3.Lines = new string[0];
-            this.bunifuTextBox3.Location = new System.Drawing.Point(612, 383);
+            this.bunifuTextBox3.Location = new System.Drawing.Point(816, 471);
+            this.bunifuTextBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox3.MaxLength = 32767;
             this.bunifuTextBox3.MinimumSize = new System.Drawing.Size(1, 1);
             this.bunifuTextBox3.Modified = false;
@@ -714,7 +731,7 @@ namespace HotelSimply
             stateProperties4.ForeColor = System.Drawing.Color.Empty;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.bunifuTextBox3.OnIdleState = stateProperties4;
-            this.bunifuTextBox3.Padding = new System.Windows.Forms.Padding(3);
+            this.bunifuTextBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox3.PasswordChar = '\0';
             this.bunifuTextBox3.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.bunifuTextBox3.PlaceholderText = "Enater Room Number";
@@ -724,7 +741,7 @@ namespace HotelSimply
             this.bunifuTextBox3.SelectionLength = 0;
             this.bunifuTextBox3.SelectionStart = 0;
             this.bunifuTextBox3.ShortcutsEnabled = true;
-            this.bunifuTextBox3.Size = new System.Drawing.Size(260, 37);
+            this.bunifuTextBox3.Size = new System.Drawing.Size(347, 46);
             this.bunifuTextBox3.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox3.TabIndex = 4;
             this.bunifuTextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -762,7 +779,8 @@ namespace HotelSimply
             this.bunifuTextBox2.IconRight = null;
             this.bunifuTextBox2.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox2.Lines = new string[0];
-            this.bunifuTextBox2.Location = new System.Drawing.Point(612, 270);
+            this.bunifuTextBox2.Location = new System.Drawing.Point(816, 332);
+            this.bunifuTextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox2.MaxLength = 32767;
             this.bunifuTextBox2.MinimumSize = new System.Drawing.Size(1, 1);
             this.bunifuTextBox2.Modified = false;
@@ -788,7 +806,7 @@ namespace HotelSimply
             stateProperties8.ForeColor = System.Drawing.Color.Empty;
             stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.bunifuTextBox2.OnIdleState = stateProperties8;
-            this.bunifuTextBox2.Padding = new System.Windows.Forms.Padding(3);
+            this.bunifuTextBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox2.PasswordChar = '\0';
             this.bunifuTextBox2.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.bunifuTextBox2.PlaceholderText = "Enter ID";
@@ -798,7 +816,7 @@ namespace HotelSimply
             this.bunifuTextBox2.SelectionLength = 0;
             this.bunifuTextBox2.SelectionStart = 0;
             this.bunifuTextBox2.ShortcutsEnabled = true;
-            this.bunifuTextBox2.Size = new System.Drawing.Size(260, 37);
+            this.bunifuTextBox2.Size = new System.Drawing.Size(347, 46);
             this.bunifuTextBox2.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox2.TabIndex = 3;
             this.bunifuTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -836,7 +854,8 @@ namespace HotelSimply
             this.bunifuTextBox1.IconRight = null;
             this.bunifuTextBox1.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox1.Lines = new string[0];
-            this.bunifuTextBox1.Location = new System.Drawing.Point(602, 158);
+            this.bunifuTextBox1.Location = new System.Drawing.Point(803, 194);
+            this.bunifuTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox1.MaxLength = 32767;
             this.bunifuTextBox1.MinimumSize = new System.Drawing.Size(1, 1);
             this.bunifuTextBox1.Modified = false;
@@ -862,7 +881,7 @@ namespace HotelSimply
             stateProperties12.ForeColor = System.Drawing.Color.Empty;
             stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.bunifuTextBox1.OnIdleState = stateProperties12;
-            this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(3);
+            this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTextBox1.PasswordChar = '\0';
             this.bunifuTextBox1.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.bunifuTextBox1.PlaceholderText = "Enter Name";
@@ -872,7 +891,7 @@ namespace HotelSimply
             this.bunifuTextBox1.SelectionLength = 0;
             this.bunifuTextBox1.SelectionStart = 0;
             this.bunifuTextBox1.ShortcutsEnabled = true;
-            this.bunifuTextBox1.Size = new System.Drawing.Size(260, 37);
+            this.bunifuTextBox1.Size = new System.Drawing.Size(347, 46);
             this.bunifuTextBox1.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox1.TabIndex = 2;
             this.bunifuTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -890,10 +909,11 @@ namespace HotelSimply
             this.bunifuLabel2.Cursor = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel2.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.bunifuLabel2.Location = new System.Drawing.Point(459, 127);
+            this.bunifuLabel2.Location = new System.Drawing.Point(612, 156);
+            this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuLabel2.Name = "bunifuLabel2";
             this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(52, 28);
+            this.bunifuLabel2.Size = new System.Drawing.Size(67, 35);
             this.bunifuLabel2.TabIndex = 1;
             this.bunifuLabel2.Text = "Name";
             this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -906,10 +926,11 @@ namespace HotelSimply
             this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 24F);
-            this.bunifuLabel1.Location = new System.Drawing.Point(62, 53);
+            this.bunifuLabel1.Location = new System.Drawing.Point(83, 65);
+            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(164, 45);
+            this.bunifuLabel1.Size = new System.Drawing.Size(205, 54);
             this.bunifuLabel1.TabIndex = 0;
             this.bunifuLabel1.Text = "Cheack Out";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -917,10 +938,10 @@ namespace HotelSimply
             // 
             // Receptionist
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(106)))), ((int)(((byte)(133)))));
-            this.ClientSize = new System.Drawing.Size(1349, 681);
+            this.ClientSize = new System.Drawing.Size(1799, 838);
             this.Controls.Add(this.bunifuButton1);
             this.Controls.Add(this.bunifuButton4);
             this.Controls.Add(this.bunifuLabel14);
@@ -930,6 +951,7 @@ namespace HotelSimply
             this.Controls.Add(this.cusPanel);
             this.Controls.Add(this.bunifuPanel1);
             this.Controls.Add(this.roomPanel);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Receptionist";
             this.Text = "ManagerForm";
             this.Load += new System.EventHandler(this.Receptionist_Load);
