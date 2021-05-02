@@ -68,15 +68,6 @@ namespace HotelSimply
             this.Hide();
         }
 
-        private void bunifuButton4_Click(object sender, EventArgs e)
-        {
-            RoomDetails rd = new RoomDetails();
-            rd.name = this.name;
-            rd.type = this.type;
-            rd.Show();
-            this.Hide();
-        }
-
         private void Receptionist_Load(object sender, EventArgs e)
         {
 

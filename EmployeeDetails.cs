@@ -86,11 +86,6 @@ namespace HotelSimply
             txtUid.Text = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void btnAddEmp_Click(object sender, EventArgs e)
         {
             AddEmployee A = new AddEmployee();
